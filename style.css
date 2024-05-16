@@ -1,0 +1,60 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(127, 214, 255);
+}
+
+
+#king{
+  position: relative;
+}
+.div1{
+  width: 300px;
+  
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+ 
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.input{
+ width: 200px;
+ border: 5px solid rgb(127, 214, 255);
+ margin: 20px;
+ border-radius: 5px;
+ padding: 20px;
+ font-size: 1.5rem;
+}
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+  font-size: 50px;
+  text-align: center;
+}
+#sign-in{
+ padding: 18px;
+ width: 100px;
+ border-radius: 10px;
+ border: 5px solid rgb(127, 214, 255);
+ color: gray;
+ margin-top: 10px;
+ margin-left: auto;
+ margin-right: auto;
+ font-size: 1rem;
+ font-weight: bolder;
+}
+#age-span{
+  color:red;
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+#success-not{
+  color: red;
+  margin-left:  auto;
+  margin-right: auto;
+  margin-top: 20px;
+ font-size: 1.5rem;
+}
